@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: #000000;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.joinChatContainer {
+    margin: 10% 30%;
+    padding: 10ch 5ch;
+    border-radius: 2ch;
+    background-image: linear-gradient(66deg, #FFC996 25%, #FF8474 0%, #FF8474 85%, #FFC996 0%);
+}
+
+.joinInput {
+    margin: 1ch;
+    font-size: large;
+    border: 2px solid #9F5F80;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button.joinInput{
+  margin: 2ch;
+  border: none;
+  border-radius: 0.6ch;
+  padding: 2ch;
+  background: #9F5F80;
+  color: #fff;
+  cursor: pointer;
+}
+
+.chatContainer {
+    margin: 10% 30%;
+    padding: 0ch 0ch;
+    border-radius: 2ch;
+    background-image: linear-gradient(66deg, #FFC996 25%, #FF8474 0%, #FF8474 85%, #FFC996 0%);
+}
+
+.chat-header {
+    background: #9F5F80;
+    padding: 0.1ch;
+    color: #FFF;
+    border-radius: 2ch 2ch 0ch 0ch;
+}
+
+.chat-body {
+    overflow-x: hidden;
+}
+
+.msg-container {
+    height: 400px;
+}
+
+.chat-footer {
+    background: #9F5F80;
+    padding: 2ch;
+    border-radius: 0ch 0ch 2ch 2ch;
+}
+
+.sendButton {
+  margin: 2ch;
+  border: none;
+  border-radius: 5ch;
+  padding: 2ch 5ch;
+  background: #583D72;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content {
+    width: 70%;
+    margin: 1ch;
+    font-size: large;
+    border: 2px solid #9F5F80;
+    border-radius: 5ch;
+    padding: 5px;
+}
+
+.msgBody {
+    align-items: center;
+    margin: 2ch;
+    border: none;
+    border-radius: 2ch;
+    padding: 0.4ch 2ch;
+    color: #fff;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.089) 0px -23px 55px 0px inset, rgba(0, 0, 0, 0.15) 0px -26px 50px 0px inset;
+}
+
+.you {
+    background: #583d729f;
+    text-align: right;
+    margin-left: auto;
+    /* margin-left: 30%; */
+}
+
+.other {
+    background: #583d729f;
+    text-align: left;
+}
+
+.text {
+    font-size: large;
+}
+
+.meta {
+    color: #ffffff73;
+    font-size: small;
+}
