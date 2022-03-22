@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "http://mickpurple.com",
+        origin: "https://mickpurple.com",
         methods: ["GET", "POST"]
     }
 });
