@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://mickpurple.com",
+        origin: "https://mickpurple.com/react-chat-app/",
         methods: ["GET", "POST"]
     }
 });
