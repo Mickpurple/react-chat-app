@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import io from "socket.io-client";
 import "./app.css"
 
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// import Join from "./components/Join";
  import Chat from "./components/Chat";
 
 const socket = io.connect("https://minimal-react-chat.herokuapp.com/");
